@@ -52,3 +52,19 @@ function updateStatus() {
 
   document.getElementById('status').textContent = status;
 }
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding-top: 50px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#status {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
